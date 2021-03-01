@@ -1,0 +1,19 @@
+apiVersion: v1
+entries:
+  wordpress:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-03-01T13:52:16.268120969+02:00"
+    dependencies:
+    - condition: mysql.enabled
+      name: mysql
+      repository: file://../mysql
+      version: 0.1.0
+    description: A Helm chart for Kubernetes
+    digest: 424d3e5e19a0fcdd91174226e6e60fbe42cf81b02dbd9c0dca67808fe2a3b68c
+    name: wordpress
+    type: application
+    urls:
+    - wordpress-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-03-01T13:52:16.267270096+02:00"
